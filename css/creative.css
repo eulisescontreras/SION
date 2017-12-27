@@ -84,7 +84,7 @@ body {
   #mainNav .navbar-brand {
     font-weight: 700;
     /*text-transform: uppercase;*/
-    color: white;
+    color: rgb(19, 194, 225);
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: rgb(19, 194, 225); }
