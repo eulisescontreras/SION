@@ -1,13 +1,13 @@
 
 TITLE: 
-Aesthetic - 100% Fully Responsive Free HTML5 Bootstrap Template
+SION- Agencia Digital
 
 AUTHOR:
-DESIGNED & DEVELOPED by GetTemplates.co
+DESIGNED & DEVELOPED by Sion.com.ve
 
-Website: http://gettemplates.co/
-Twitter: http://twitter.com/gettemplatesco
-Facebook: http://facebook.com/gettemplatesco
+Website: 
+Twitter: 
+Facebook: 
 
 
 CREDITS:

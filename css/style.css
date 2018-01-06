@@ -861,6 +861,12 @@ form label {
   margin-bottom: 30px;
   text-align: center;
 }
+
+.menu-1 {
+  position: relative;
+  top: -43px;
+}
+
 @media screen and (max-width: 768px) {
   .gtco-tabs .icon-xlg {
     font-size: 300px;
@@ -991,6 +997,10 @@ form label {
 }
 #gtco-footer .copyright .block {
   display: block;
+}
+
+#gtco-footer {
+    padding-bottom: 0px;
 }
 
 #gtco-offcanvas {
@@ -1349,9 +1359,9 @@ form label {
   border: 2px solid #fff;
 }
 .btn-white:hover, .btn-white:focus, .btn-white:active {
-  color: #000;
-  background: #f2f2f2 !important;
-  border-color: #f2f2f2 !important;
+  color: white;
+  background: #82a4e1 !important;
+  border-color: #82a4e1 !important;
 }
 .btn-white.btn-outline {
   color: #fff;
@@ -1889,4 +1899,56 @@ form label {
   border: 2px solid #009FFF;
 }
 
+#main-title-button {
+  position: relative;
+  top: -60px;
+}
+
+#about-us {
+  text-align: justify;
+}
+
+#main-service-btn {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #155BD6;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#main-service-btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#main-service-btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#main-service-btn:hover span {
+  padding-right: 25px;
+}
+
+#main-service-btn:hover {
+  background: #4C81E1 !important;
+}
+
+#main-service-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 /*# sourceMappingURL=style.css.map */
