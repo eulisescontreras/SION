@@ -1901,7 +1901,13 @@ form label {
 
 #main-title-button {
   position: relative;
-  top: -60px;
+  top: 0px;
+}
+
+@media only screen and (min-width: 768px) {
+  #main-title-button {
+    top: -60px;
+  }
 }
 
 #about-us {
